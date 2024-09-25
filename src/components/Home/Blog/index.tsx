@@ -24,18 +24,18 @@ const BlogCard = ({ title, link, image, isBig = false }: Partial<BaseBlock> & { 
             </Typography>
           </div>
 
-          <Typography variant="h4" className={clsx(css.title, { [css.main]: isBig })}>
+          <Typography variant="h5" className={clsx(css.title, { [css.main]: isBig })}>
             {title}
           </Typography>
         </div>
 
-        {link ? (
+        {/* {link ? (
           <LinkButton underline={false} fullSize href={link.href}>
             {link.title}
           </LinkButton>
-        ) : undefined}
+        ) : undefined} */}
 
-        <ArrowIcon className={css.arrow} />
+        {/* <ArrowIcon className={css.arrow} /> */}
       </div>
     </div>
   </div>

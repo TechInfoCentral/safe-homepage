@@ -22,7 +22,8 @@ const TextItemGridSpacedCards = ({ title, items, compactItems }: TextItemGridSpa
 
           return (
             <Grid key={index} item xs={12} md={4}>
-              <LinkCard caption={caption} title={title} text={text} link={link} />
+              <LinkCard caption={caption} title={title} />
+              {/* <LinkCard caption={caption} title={title} text={text} link={link} /> */}
             </Grid>
           )
         })}

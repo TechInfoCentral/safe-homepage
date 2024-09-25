@@ -26,7 +26,7 @@ const LinkCard = ({ caption, title, text, link }: Partial<BaseBlock>) => (
           ) : undefined}
         </div>
 
-        <ArrowIcon className={css.arrow} />
+        {/* <ArrowIcon className={css.arrow} /> */}
       </div>
     </div>
   </div>

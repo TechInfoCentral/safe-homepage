@@ -10,9 +10,9 @@ import { createEmotionCache } from '@/styles/emotion'
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Safe Global',
-  alternateName: 'Safe',
-  url: 'https://safe.global/',
+  name: 'Dimp Network',
+  alternateName: 'Dimp',
+  url: 'https://dimpnetwork.io/',
 }
 
 export default class MyDocument extends Document {

@@ -8,7 +8,7 @@ import { WALLET_LINK } from '@/config/constants'
 import SafeLink from '@/components/common/SafeLink'
 import Menu from '@/components/common/Header/Menu'
 import { navCategories, type NavCategories } from '@/components/common/Header/navCategories'
-import Logo from '@/public/images/logo.svg'
+// import Logo from '@/public/images/logo.svg'
 import AngleDownIcon from '@/public/images/angle-down.svg'
 import ArrowIcon from '@/public/images/arrow-out-square-corner.svg'
 import css from './styles.module.css'
@@ -34,9 +34,13 @@ const Header = () => {
   return (
     <div className={clsx(css.header, isBurgerOpen && css.visible)}>
       <NextLink href={AppRoutes.index}>
-        <div className={css.logo}>
+        {/* <div className={css.logo}>
           <Logo />
-        </div>
+        </div> */}
+      <div>
+      <img src="/images/dimp-logo.png" alt="Logo" width="100"/>
+      </div>
+
       </NextLink>
 
       <ButtonBase className={css.burger} onClick={toggleMobileNavigation} aria-label="Toggle navigation" disableRipple>
@@ -77,13 +81,13 @@ const Header = () => {
             )
           })}
           <li key={WALLET_LINK} className={css.hideInLaptop}>
-            <WalletButton />
+            {/* <WalletButton /> */}
           </li>
         </ul>
       </nav>
 
       <div className={css.hideInMobile}>
-        <WalletButton />
+        {/* <WalletButton /> */}
       </div>
     </div>
   )

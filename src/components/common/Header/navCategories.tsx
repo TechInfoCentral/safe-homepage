@@ -48,116 +48,116 @@ export enum NavCategories {
 }
 
 export const navCategories: NavCategory[] = [
-  {
-    category: NavCategories.Developers,
-    items: [
-      {
-        label: 'Safe{Core}',
-        href: AppRoutes.core,
-        icon: <SafeCoreIcon />,
-      },
-      {
-        label: 'Documentation',
-        href: DOCS_LINK,
-        target: '_blank',
-        rel: 'noreferrer',
-        icon: <PaperIcon />,
-      },
-      {
-        label: 'Gas Station',
-        href: AppRoutes.gasStation,
-        icon: <GasStationIcon />,
-      },
-      {
-        label: 'Safe{Foundry}',
-        href: AppRoutes.foundry,
-        icon: <SafeFoundryIcon />,
-      },
-    ],
-  },
-  {
-    category: NavCategories.Wallet,
-    href: AppRoutes.wallet,
-  },
-  {
-    category: NavCategories.Ecosystem,
-    items: [
-      {
-        label: 'Projects',
-        href: AppRoutes.ecosystem,
-        icon: <ProjectsIcon />,
-      },
-      {
-        label: 'Grants',
-        href: GRANTS_LINK,
-        target: '_blank',
-        rel: 'noreferrer',
-        icon: <GrantsIcon />,
-      },
-    ],
-  },
-  {
-    category: NavCategories.Community,
-    items: [
-      {
-        label: 'Governance',
-        href: AppRoutes.governance,
-        icon: <GovernanceIcon />,
-      },
-      {
-        label: 'SAFE Token',
-        href: AppRoutes.token,
-        icon: <SafeTokenIcon />,
-      },
-      {
-        label: 'Safe{Pass}',
-        href: AppRoutes.pass,
-        icon: <SafePassIcon />,
-      },
-      {
-        label: 'Safe{Con}',
-        href: SAFECON_LINK,
-        target: '_blank',
-        rel: 'noreferrer',
-        icon: <SafeConIcon />,
-      },
-    ],
-  },
-  {
-    category: NavCategories.Resources,
-    items: [
-      {
-        label: 'Blog',
-        href: AppRoutes.blog.index,
-        icon: <PaperIcon />,
-      },
-      {
-        label: 'Careers',
-        tag: 'Hiring',
-        href: AppRoutes.careers,
-        icon: <CareersIcon />,
-      },
-      {
-        label: 'Press room',
-        href: AppRoutes.press,
-        icon: <PressRoomIcon />,
-      },
-      {
-        label: 'Data room',
-        href: AppRoutes.dataroom,
-        icon: <DataRoomIcon />,
-      },
-      {
-        label: 'Help center',
-        href: HELP_LINK,
-        target: '_blank',
-        rel: 'noreferrer',
-        icon: <HelpCenterIcon />,
-      },
-    ],
-  },
-  {
-    category: NavCategories.SafePass,
-    href: AppRoutes.pass,
-  },
+  // {
+  //   category: NavCategories.Developers,
+  //   items: [
+  //     {
+  //       label: 'Safe{Core}',
+  //       href: AppRoutes.core,
+  //       icon: <SafeCoreIcon />,
+  //     },
+  //     {
+  //       label: 'Documentation',
+  //       href: DOCS_LINK,
+  //       target: '_blank',
+  //       rel: 'noreferrer',
+  //       icon: <PaperIcon />,
+  //     },
+  //     {
+  //       label: 'Gas Station',
+  //       href: AppRoutes.gasStation,
+  //       icon: <GasStationIcon />,
+  //     },
+  //     {
+  //       label: 'Safe{Foundry}',
+  //       href: AppRoutes.foundry,
+  //       icon: <SafeFoundryIcon />,
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: NavCategories.Wallet,
+  //   href: AppRoutes.wallet,
+  // },
+  // {
+  //   category: NavCategories.Ecosystem,
+  //   items: [
+  //     {
+  //       label: 'Projects',
+  //       href: AppRoutes.ecosystem,
+  //       icon: <ProjectsIcon />,
+  //     },
+  //     {
+  //       label: 'Grants',
+  //       href: GRANTS_LINK,
+  //       target: '_blank',
+  //       rel: 'noreferrer',
+  //       icon: <GrantsIcon />,
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: NavCategories.Community,
+  //   items: [
+  //     {
+  //       label: 'Governance',
+  //       href: AppRoutes.governance,
+  //       icon: <GovernanceIcon />,
+  //     },
+  //     {
+  //       label: 'SAFE Token',
+  //       href: AppRoutes.token,
+  //       icon: <SafeTokenIcon />,
+  //     },
+  //     {
+  //       label: 'Safe{Pass}',
+  //       href: AppRoutes.pass,
+  //       icon: <SafePassIcon />,
+  //     },
+  //     {
+  //       label: 'Safe{Con}',
+  //       href: SAFECON_LINK,
+  //       target: '_blank',
+  //       rel: 'noreferrer',
+  //       icon: <SafeConIcon />,
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: NavCategories.Resources,
+  //   items: [
+  //     {
+  //       label: 'Blog',
+  //       href: AppRoutes.blog.index,
+  //       icon: <PaperIcon />,
+  //     },
+  //     {
+  //       label: 'Careers',
+  //       tag: 'Hiring',
+  //       href: AppRoutes.careers,
+  //       icon: <CareersIcon />,
+  //     },
+  //     {
+  //       label: 'Press room',
+  //       href: AppRoutes.press,
+  //       icon: <PressRoomIcon />,
+  //     },
+  //     {
+  //       label: 'Data room',
+  //       href: AppRoutes.dataroom,
+  //       icon: <DataRoomIcon />,
+  //     },
+  //     {
+  //       label: 'Help center',
+  //       href: HELP_LINK,
+  //       target: '_blank',
+  //       rel: 'noreferrer',
+  //       icon: <HelpCenterIcon />,
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: NavCategories.SafePass,
+  //   href: AppRoutes.pass,
+  // },
 ]

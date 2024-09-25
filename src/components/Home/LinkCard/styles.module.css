@@ -16,13 +16,13 @@
   left: -1px;
   right: -1px;
   bottom: -1px;
-  background: linear-gradient(to bottom left, #12ff80, #5fddff);
+  background: #fbc2d7;
   opacity: 0;
 }
 
 .outline:hover::before {
   opacity: 1;
-  box-shadow: 10px 10px 25px 0 rgba(18, 255, 128, 0.2);
+  box-shadow: 10px 10px 25px 0 #fbc2d7;
 }
 
 .card {

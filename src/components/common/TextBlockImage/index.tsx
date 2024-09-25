@@ -46,13 +46,14 @@ const TextBlockImage = ({
           )}
 
           {/* Logos */}
-          {items ? (
+          {/* {items ? (
             <div className={css.logos}>
               {items.map(({ image }, index) => (
                 <img key={index} src={image?.src || ''} alt={image?.alt || ''} className={css.logo} />
               ))}
             </div>
-          ) : undefined}
+          ) : undefined} */}
+          
           <ButtonsWrapper buttons={buttons} />
         </Grid>
 

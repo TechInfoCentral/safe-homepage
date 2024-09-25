@@ -15,7 +15,7 @@ type VideoEmbed = {
 const BigIconsCardGrid = ({ items }: { items: Array<Partial<BaseBlock> & { video?: VideoEmbed }> }): ReactElement => {
   return (
     <Container className={layoutCss.containerMedium}>
-      <Grid container spacing={{ xs: '30px', xl: '50px' }}>
+      {/* <Grid container spacing={{ xs: '30px', xl: '50px' }}>
         {items.map((item, index) => (
           <Grid key={index} item xs={12} md={6}>
             <div className={css.card}>
@@ -49,7 +49,7 @@ const BigIconsCardGrid = ({ items }: { items: Array<Partial<BaseBlock> & { video
             </div>
           </Grid>
         ))}
-      </Grid>
+      </Grid> */}
     </Container>
   )
 }

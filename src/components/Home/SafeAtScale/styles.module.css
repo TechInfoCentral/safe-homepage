@@ -1,5 +1,7 @@
 .bg {
-  background-image: url('/images/Home/bg-circuits-portrait.png');
+  background-image: url('/images/particle3.png');
+
+  /* background-image: url('/images/Home/bg-circuits-portrait.png'); */
   background-position: center top 150px;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -160,7 +162,7 @@
 
 @media (min-width: 900px) {
   .bg {
-    background-image: url('/images/Home/bg-circuits.png');
+    background-image: url('/images/particle3.png');
   }
 
   .caption {

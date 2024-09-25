@@ -21,38 +21,39 @@ const HeroVideo = ({ title, text }: BaseBlock) => {
   }, [])
 
   return (
-    <div className={css.container}>
-      <div className={css.wrapper}>
-        <div>
-          <video
-            autoPlay
-            muted
-            playsInline
-            loop
-            ref={videoRef}
-            style={{ opacity: 0 }}
-            className={`${css.video} ${ready ? css.ready : ''}`}
-          >
-            <source src="/videos/Home/safe-2024-hero-vp9.webm" type="video/webm" />
-            <source src="/videos/Home/safe-2024-hero-hevc.mov" type="video/quicktime; codecs=hvc1" />
-          </video>
-        </div>
+    <></>
+    // <div className={css.container}>
+    //   <div className={css.wrapper}>
+    //     <div>
+    //       <video
+    //         autoPlay
+    //         muted
+    //         playsInline
+    //         loop
+    //         ref={videoRef}
+    //         style={{ opacity: 0 }}
+    //         className={`${css.video} ${ready ? css.ready : ''}`}
+    //       >
+    //         <source src="/videos/Home/safe-2024-hero-vp9.webm" type="video/webm" />
+    //         <source src="/videos/Home/safe-2024-hero-hevc.mov" type="video/quicktime; codecs=hvc1" />
+    //       </video>
+    //     </div>
 
-        <Grid container className={css.content} width="100%" height="100%">
-          <Grid item>
-            <Typography variant="h1" className={css.title}>
-              {title}
-            </Typography>
-            <Typography variant="h1" className={css.title} color="primary.main">
-              {text}
-            </Typography>
-          </Grid>
-        </Grid>
-        <Typography variant="caption" className={css.scroll}>
-          Scroll
-        </Typography>
-      </div>
-    </div>
+    //     <Grid container className={css.content} width="100%" height="100%">
+    //       <Grid item>
+    //         <Typography variant="h1" className={css.title}>
+    //           {title}
+    //         </Typography>
+    //         <Typography variant="h1" className={css.title} color="primary.main">
+    //           {text}
+    //         </Typography>
+    //       </Grid>
+    //     </Grid>
+    //     {/* <Typography variant="caption" className={css.scroll}>
+    //       Scroll
+    //     </Typography> */}
+    //   </div>
+    // </div>
   )
 }
 

@@ -9,7 +9,7 @@ import type { AppProps } from 'next/app'
 import type { ReactElement } from 'react'
 
 import { createEmotionCache } from '@/styles/emotion'
-import { CookieBannerContextProvider } from '@/contexts/CookieBannerContext'
+// import { CookieBannerContextProvider } from '@/contexts/CookieBannerContext'
 import { CookieBanner } from '@/components/common/CookieBanner'
 
 import { theme } from '@/styles/theme'
@@ -54,7 +54,7 @@ const App = ({
       <CssVarsProvider theme={cssVarsTheme}>
         <CssBaseline />
 
-        <CookieBannerContextProvider>
+        {/* <CookieBannerContextProvider> */}
           <InitHooks />
 
           <SearchParamsContextProvider>
@@ -64,7 +64,7 @@ const App = ({
           </SearchParamsContextProvider>
 
           <CookieBanner />
-        </CookieBannerContextProvider>
+        {/* </CookieBannerContextProvider> */}
       </CssVarsProvider>
     </CacheProvider>
   )

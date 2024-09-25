@@ -34,22 +34,22 @@ const SafeAtScale = ({ caption, title, items }: BaseBlock) => {
                 }`}
               >
                 <div className={css.brackets}>
-                  <div className={css.left}>
+                  {/* <div className={css.left}>
                     <video autoPlay muted playsInline loop className={css.video}>
                       <source src="/videos/Home/brackets-left-hevc.mov" type="video/quicktime; codecs=hvc1" />
                       <source src="/videos/Home/brackets-left-vp9.webm" type="video/webm" />
                     </video>
-                  </div>
+                  </div> */}
                   <div className={css.metricsSpacer}></div>
-                  <div className={css.right}>
+                  {/* <div className={css.right}>
                     <video autoPlay muted playsInline loop className={css.video}>
                       <source src="/videos/Home/brackets-right-hevc.mov" type="video/quicktime; codecs=hvc1" />
                       <source src="/videos/Home/brackets-right-vp9.webm" type="video/webm" />
                     </video>
-                  </div>
+                  </div> */}
                 </div>
                 <div className={css.bracketSpacer}></div>
-                <div className={css.metricsInner}>
+                {/* <div className={css.metricsInner}>
                   {items?.map((item, index) => {
                     const fallback = typeof item.title === 'string' ? item.title : item.title?.props.content
                     const value = safeStats[index] ?? fallback
@@ -79,7 +79,7 @@ const SafeAtScale = ({ caption, title, items }: BaseBlock) => {
                       </Fragment>
                     )
                   })}
-                </div>
+                </div> */}
                 <div className={css.bracketSpacer}></div>
               </div>
             </Grid>

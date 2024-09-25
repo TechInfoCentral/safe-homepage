@@ -28,7 +28,8 @@ const Governance = ({ caption, title, text, items, link }: BaseBlock) => {
 
                 return (
                   <Grid key={index} item xs={12} md={4}>
-                    <LinkCard caption={caption} title={title} link={link} />
+                    <LinkCard caption={caption} title={title} />
+                    {/* <LinkCard caption={caption} title={title} link={link} /> */}
                   </Grid>
                 )
               })}
@@ -37,7 +38,7 @@ const Governance = ({ caption, title, text, items, link }: BaseBlock) => {
             <Grid container className={css.footerWrapper}>
               <Grid item md={6} textAlign="center">
                 <Typography variant="h4" mb={5}>
-                  Want to reach the Core Contributors?
+                  Contact the founding team?
                 </Typography>
                 {link ? (
                   <Button href={link.href} target="_blank" rel="noreferrer" variant="contained" size="large">

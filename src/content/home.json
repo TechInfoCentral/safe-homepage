@@ -1,23 +1,23 @@
 [
   {
-    "pageTitle": "Ethereum Smart Accounts",
+    "pageTitle": "Dimp Layer Solutions",
     "description": "Own the Internet. Ethereum Smart Accounts to safeguard your digital assets and build the future of ownership.",
     "image": "/images/Home/meta-image-homepage.jpg",
     "component": "common/MetaTags"
   },
   {
     "component": "Home/HeroVideo",
-    "title": "Smart Accounts to",
-    "text": "Own the Internet"
+    "title": "Dimp Network",
+    "text": "scalable solutions"
   },
   {
-    "caption": "Ethereum's transition to Smart Accounts",
+    "caption": "Ethereum's transition in to the future",
     "variant": "text-image",
-    "title": "<i>Safe</i> envisions a future where every onchain account is a <b>smart account</b>",
+    "title": "<i>Dimp</i> is all about interoperability & <b>reliability</b>",
     "buttons": [
       {
-        "text": "Read our vision & roadmap",
-        "href": "https://safe.global/blog/future-of-safe-vision",
+        "text": "Join the Community",
+        "href": "https://t.me/dimpnetwork",
         "variant": "link"
       }
     ],
@@ -26,8 +26,8 @@
   },
   {
     "component": "Home/SafeAtScale",
-    "caption": "Entrusted to keep your assets safe",
-    "title": "<i>Safe</i> Smart Accounts are battle-tested<br/>and used more than any other",
+    "caption": "Implementing a new tps standard",
+    "title": "<i>Dimp</i> is a Artificial Intelligenc Powered Blockchain Sentinel Defending Against Hacks and Money Laundering",
     "items": [
       {
         "title": "46M",
@@ -127,33 +127,33 @@
   },
   {
     "component": "Home/TextItemGridSpacedCards",
-    "title": "Full stack Account Abstraction",
+    "title": "Artificial Network Security",
     "compactItems": [
-      { "title": "Stealth security" },
-      { "title": "Easy onramps" },
-      { "title": "Simplified login" },
-      { "title": "Sponsored gas" }
+      { "title": "Reliable" },
+      { "title": "Safety" },
+      { "title": "Security" },
+      { "title": "Low fees" }
     ],
     "items": [
       {
-        "caption": "Protocol Kit",
-        "title": "<i>Safe</i> Smart Account",
+        "caption": "Total Supply",
+        "title": "210M",
         "text": "Use the most secure and modular Smart Account",
         "link": {
           "href": "https://docs.safe.global/sdk/protocol-kit"
         }
       },
       {
-        "caption": "Explore docs",
-        "title": "4337 <i>Safe</i> Module",
+        "caption": "Max Supply",
+        "title": "210M",
         "text": "Build with the audited and formally verified ERC-4337 Module",
         "link": {
           "href": "https://docs.safe.global/home/4337-safe"
         }
       },
       {
-        "caption": "SDK",
-        "title": "Safe{CORE} SDK",
+        "caption": "Circulating",
+        "title": "100M",
         "text": "Get out-of-the-box integrations with 3rd party apps",
         "link": {
           "href": "https://docs.safe.global/sdk/overview"
@@ -163,10 +163,10 @@
   },
   {
     "component": "Home/TextBlockImageSecurity",
-    "caption": "Security",
+    "caption": "Fair Launch Details",
     "variant": "image-text",
-    "title": "<i>Safe</i> Smart Accounts are the <b>most audited</b> and <b>battle-tested</b>",
-    "text": "Since 2018, our smart contracts have passed the highest possible security standards in the industry including formal verification.",
+    "title": "Join the community and be there for the fair launch of <b>DIMP</b>",
+    "text": "DIMP is a new AI-Powered blockchain solution, faster, securer & with lower fees.",
     "items": [
       {
         "image": {
@@ -195,13 +195,13 @@
     ],
     "buttons": [
       {
-        "text": "View audits",
-        "href": "https://www.notion.so/safe-global/Safe-Contract-Audits-f9757c9ffab24ffdac43221b9a970ebc",
+        "text": "Follow us on X",
+        "href": "https://x.com/",
         "variant": "button"
       },
       {
-        "text": "Start bug hunting",
-        "href": "https://docs.safe.global/advanced/smart-account-bug-bounty",
+        "text": "Join the Community",
+        "href": "https://t.me/dimpnetwork",
         "variant": "link"
       }
     ],
@@ -232,11 +232,11 @@
   },
   {
     "component": "Home/Blog",
-    "caption": "Blog",
-    "title": "Follow as <i>Safe</i> embeds <b>ownership</b> across use-cases",
+    "caption": "Medium Blogs",
+    "title": "Follow us <i>Medium</i> and read about recent <b>Dimp</b> developments",
     "buttons": [
       {
-        "text": "Read the latest",
+        "text": "Read latest Blog",
         "href": "https://safe.global/blog",
         "variant": "button"
       }
@@ -283,7 +283,7 @@
         }
       },
       {
-        "title": "Social &<br/>Identity",
+        "title": "Social ",
         "link": {
           "href": "https://safe.global/blog/safe-case-decentralized-social-id"
         },
@@ -296,31 +296,31 @@
   },
   {
     "component": "Home/Governance",
-    "caption": "Governance",
-    "title": "<b>Safe <u>DAO</u></b> governs<br/>the future of <i>Safe</i>",
-    "text": "<i>Safe</i> is governed by SafeDAO, a decentralized collective of core contributors, backers, GnosisDAO, users, and ecosystem contributors i.e Safe{Guardians}.",
+    "caption": "Mission",
+    "title": "<b>Dimp <u>Chain</u></b> and AiDeFi are <br/>the future",
+    "text": "<b>Dimp</b> is building a new blockchain solution powered by ai to solve the current congestion and security threads we face today.",
     "link": {
       "title": "Contact us",
-      "href": "https://ecosystem-contact.safe.global"
+      "href": "https://t.me/dimpnetwork"
     },
     "items": [
       {
-        "caption": "Be part of a community",
-        "title": "SAFE Token",
+        "caption": "Join Dimps",
+        "title": "Dimp Token",
         "link": {
-          "href": "https://safe.global/token"
+          "href": "https://t.me/dimpnetwork"
         }
       },
       {
-        "caption": "Join the discussion",
-        "title": "Latest Proposals",
+        "caption": "Support the Network",
+        "title": "Become a Validator",
         "link": {
           "href": "https://snapshot.org/#/safe.eth"
         }
       },
       {
         "caption": "Learn more",
-        "title": "Governance Hub",
+        "title": "Dimp DAO",
         "link": {
           "href": "https://gov.safe.global/"
         }

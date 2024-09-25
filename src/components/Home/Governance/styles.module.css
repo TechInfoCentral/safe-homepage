@@ -11,7 +11,8 @@
   }
 
   .bg {
-    background-image: url('/images/Home/bg-glass.png');
+    /* background-image: url('/images/Home/pink2.png'); */
+    
     background-position: center top 180px;
     background-repeat: no-repeat;
     overflow: auto;

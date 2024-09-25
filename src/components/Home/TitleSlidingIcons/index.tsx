@@ -5,7 +5,7 @@ import IconCarouselElement, { type Carousel } from './IconCarouselElement'
 const TitleSlidingIcons = ({ title, text, icons, reverse = false }: BaseBlock & Carousel) => {
   return (
     <>
-      <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center">
+      {/* <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center">
         <Typography variant="h3">{title}</Typography>
         {text && (
           <Typography color="primary.light" marginTop={4}>
@@ -13,7 +13,7 @@ const TitleSlidingIcons = ({ title, text, icons, reverse = false }: BaseBlock & 
           </Typography>
         )}
       </Box>
-      <IconCarouselElement icons={icons} reverse={reverse} />
+      <IconCarouselElement icons={icons} reverse={reverse} /> */}
     </>
   )
 }

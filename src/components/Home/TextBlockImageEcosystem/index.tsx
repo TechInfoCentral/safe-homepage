@@ -3,9 +3,10 @@ import TextBlockImage, { type TextBlockImageProps } from '@/components/common/Te
 
 const TextBlockImageEcosystem = (props: TextBlockImageProps) => {
   return (
-    <TextBlockImage {...props}>
-      <EcosystemElement image={props.image} />
-    </TextBlockImage>
+    // <TextBlockImage {...props}>
+    //   <EcosystemElement image={props.image} />
+    // </TextBlockImage>
+    <></>
   )
 }
 

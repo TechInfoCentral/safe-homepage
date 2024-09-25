@@ -2,11 +2,11 @@ import { Badge, ButtonBase, Container, Divider, Grid, SvgIcon, Typography } from
 import type { ComponentType, SyntheticEvent } from 'react'
 
 import { AppRoutes } from '@/config/routes'
-import DiscordIcon from '@/public/images/discord-icon.svg'
+// import DiscordIcon from '@/public/images/discord-icon.svg'
 import XIcon from '@/public/images/x-icon.svg'
-import YoutubeIcon from '@/public/images/youtube-icon.svg'
-import DiscourseIcon from '@/public/images/discourse-icon.svg'
-import GithubIcon from '@/public/images/github-icon.svg'
+// import YoutubeIcon from '@/public/images/youtube-icon.svg'
+// import DiscourseIcon from '@/public/images/discourse-icon.svg'
+// import GithubIcon from '@/public/images/github-icon.svg'
 
 import css from './styles.module.css'
 import Link from 'next/link'
@@ -24,7 +24,7 @@ import {
   YOUTUBE_LINK,
 } from '@/config/constants'
 import { useCookieBannerContext } from '@/contexts/CookieBannerContext'
-import Logo from '@/public/images/logo.svg'
+// import Logo from '@/public/images/logo.svg'
 import { useOpenPositions } from '@/hooks/useOpenPositions'
 import packageJson from 'package.json'
 
@@ -32,117 +32,147 @@ const COOKIE_PREFERENCES = '#cookies'
 
 const developersItems = [
   {
-    label: 'Safe{Core}',
-    href: AppRoutes.core,
-  },
-  {
-    label: 'Documentation',
-    href: DOCS_LINK,
+    label: 'Coming Soon',
+    href: '',
     target: '_blank',
     rel: 'noreferrer',
   },
-  {
-    label: 'Gas station',
-    href: AppRoutes.gasStation,
-  },
-  {
-    label: 'Safe{Foundry}',
-    href: AppRoutes.foundry,
-  },
+  // {
+  //   label: 'Safe{Core}',
+  //   href: AppRoutes.core,
+  // },
+  // {
+  //   label: 'Documentation',
+  //   href: DOCS_LINK,
+  //   target: '_blank',
+  //   rel: 'noreferrer',
+  // },
+  // {
+  //   label: 'Gas station',
+  //   href: AppRoutes.gasStation,
+  // },
+  // {
+  //   label: 'Safe{Foundry}',
+  //   href: AppRoutes.foundry,
+  // },
 ]
 
 const ecosystemItems = [
   {
-    label: 'Explore',
-    href: AppRoutes.ecosystem,
-  },
-  {
-    label: 'Grants',
-    href: GRANTS_LINK,
+    label: 'Coming Soon',
+    href: '',
     target: '_blank',
     rel: 'noreferrer',
   },
+  // {
+  //   label: 'Explore',
+  //   href: AppRoutes.ecosystem,
+  // },
+  // {
+  //   label: 'Grants',
+  //   href: GRANTS_LINK,
+  //   target: '_blank',
+  //   rel: 'noreferrer',
+  // },
 ]
 
 const communityItems = [
   {
-    label: 'Governance',
-    href: AppRoutes.governance,
-  },
-  {
-    label: 'Token',
-    href: AppRoutes.token,
-  },
-  {
-    label: 'Safe{Pass}',
-    href: AppRoutes.pass,
-  },
-  {
-    label: 'Safe{Con}',
-    href: SAFECON_LINK,
+    label: 'Coming Soon',
+    href: '',
     target: '_blank',
     rel: 'noreferrer',
   },
+  // {
+  //   label: 'Governance',
+  //   href: AppRoutes.governance,
+  // },
+  // {
+  //   label: 'Token',
+  //   href: AppRoutes.token,
+  // },
+  // {
+  //   label: 'Safe{Pass}',
+  //   href: AppRoutes.pass,
+  // },
+  // {
+  //   label: 'Safe{Con}',
+  //   href: SAFECON_LINK,
+  //   target: '_blank',
+  //   rel: 'noreferrer',
+  // },
 ]
 
 const resourcesItems = [
   {
-    label: 'Careers',
-    href: AppRoutes.careers,
-  },
-  {
-    label: 'Press Room',
-    href: AppRoutes.press,
-  },
-  {
-    label: 'Brand Kit',
-    href: PRESS_LINK,
+    label: 'Coming Soon',
+    href: '',
     target: '_blank',
     rel: 'noreferrer',
   },
-  {
-    label: 'Help Center',
-    href: HELP_LINK,
-    target: '_blank',
-    rel: 'noreferrer',
-  },
+  // {
+  //   label: 'Careers',
+  //   href: AppRoutes.careers,
+  // },
+  // {
+  //   label: 'Press Room',
+  //   href: AppRoutes.press,
+  // },
+  // {
+  //   label: 'Brand Kit',
+  //   href: PRESS_LINK,
+  //   target: '_blank',
+  //   rel: 'noreferrer',
+  // },
+  // {
+  //   label: 'Help Center',
+  //   href: HELP_LINK,
+  //   target: '_blank',
+  //   rel: 'noreferrer',
+  // },
 ]
 
 const subFooterItems = [
   {
-    label: 'Terms',
-    href: AppRoutes.terms,
-  },
-  {
-    label: 'Privacy',
-    href: AppRoutes.privacy,
-  },
-  {
-    label: 'Licenses',
-    href: LICENSES_LINK,
+    label: 'Coming Soon',
+    href: '',
     target: '_blank',
     rel: 'noreferrer',
   },
-  {
-    label: 'Cookie Policy',
-    href: AppRoutes.cookie,
-  },
-  {
-    label: 'Preferences',
-    href: COOKIE_PREFERENCES,
-  },
-  {
-    label: 'Imprint',
-    href: AppRoutes.imprint,
-  },
-  {
-    label: 'Trademark',
-    href: AppRoutes.trademark,
-  },
-  {
-    label: 'Disclaimer',
-    href: AppRoutes.disclaimer,
-  },
+  // {
+  //   label: 'Terms',
+  //   href: AppRoutes.terms,
+  // },
+  // {
+  //   label: 'Privacy',
+  //   href: AppRoutes.privacy,
+  // },
+  // {
+  //   label: 'Licenses',
+  //   href: LICENSES_LINK,
+  //   target: '_blank',
+  //   rel: 'noreferrer',
+  // },
+  // {
+  //   label: 'Cookie Policy',
+  //   href: AppRoutes.cookie,
+  // },
+  // {
+  //   label: 'Preferences',
+  //   href: COOKIE_PREFERENCES,
+  // },
+  // {
+  //   label: 'Imprint',
+  //   href: AppRoutes.imprint,
+  // },
+  // {
+  //   label: 'Trademark',
+  //   href: AppRoutes.trademark,
+  // },
+  // {
+  //   label: 'Disclaimer',
+  //   href: AppRoutes.disclaimer,
+  // },
 ]
 
 const createFooterButton = (label: string, href: string, IconComponent: ComponentType) => {
@@ -173,9 +203,14 @@ const Footer = () => {
     <Container className={css.wrapper}>
       <Grid container flexDirection={{ xs: 'column', sm: 'row' }}>
         <Grid item xs={12} md={2.5} mb={{ xs: 4, md: 0 }}>
-          <Link href={AppRoutes.index}>
+          {/* <Link href={AppRoutes.index}>
             <Logo className={css.logo} />
+          </Link> */}
+          
+          <Link href={AppRoutes.index}>
+            <img src="/images/dimp-logo.png" alt="Logo" width="100"/>
           </Link>
+
         </Grid>
 
         <Grid item xs={6} md={2}>
@@ -256,10 +291,10 @@ const Footer = () => {
           </Typography>
           <div className={css.socials}>
             {createFooterButton('X page', TWITTER_LINK, XIcon)}
-            {createFooterButton('Discourse forum', FORUM_LINK, DiscourseIcon)}
-            {createFooterButton('Discord server', DISCORD_LINK, DiscordIcon)}
-            {createFooterButton('Youtube channel', YOUTUBE_LINK, YoutubeIcon)}
-            {createFooterButton('Github organization', GITHUB_LINK, GithubIcon)}
+            {/* {createFooterButton('Discourse forum', FORUM_LINK, DiscourseIcon)} */}
+            {/* {createFooterButton('Discord server', DISCORD_LINK, DiscordIcon)} */}
+            {/* {createFooterButton('Youtube channel', YOUTUBE_LINK, YoutubeIcon)} */}
+            {/* {createFooterButton('Github organization', GITHUB_LINK, GithubIcon)} */}
           </div>
         </Grid>
       </Grid>
@@ -269,7 +304,7 @@ const Footer = () => {
       <Grid container alignItems="center" justifyContent="space-between">
         <Grid item>
           <ul className={css.subList}>
-            {subFooterItems.map((item) => {
+            {/* {subFooterItems.map((item) => {
               const isCookiePreference = item.href === COOKIE_PREFERENCES
 
               return (
@@ -284,22 +319,22 @@ const Footer = () => {
                   </Link>
                 </li>
               )
-            })}
+            })} */}
 
             {/* Package version */}
-            <li className={css.subListItem}>
+            {/* <li className={css.subListItem}>
               <a href={`${packageJson.homepage}/releases/tag/v${packageJson.version}`} target="_blank" rel="noreferrer">
                 <div className={css.subListItemContent}>
                   <SvgIcon component={GithubIcon} inheritViewBox fontSize="inherit" />v{packageJson.version}
                 </div>
               </a>
-            </li>
+            </li> */}
           </ul>
         </Grid>
 
         <Grid item my={2}>
           <Typography color="primary.light" fontSize="16px">
-            &copy;2023–{new Date().getFullYear()} Safe Ecosystem Foundation
+            &copy;{new Date().getFullYear()} Dimp Foundation
           </Typography>
         </Grid>
       </Grid>
