@@ -1,8 +1,8 @@
-import { Container, Grid, Typography } from '@mui/material'
-import IOSDownload from '@/public/images/ios-download.svg'
-import GPlayDownload from '@/public/images/google-play-download.svg'
-import css from './styles.module.css'
-import { IOS_LINK, GPLAY_LINK } from '@/config/constants'
+// import { Container, Grid, Typography } from '@mui/material'
+// import IOSDownload from '@/public/images/ios-download.svg'
+// import GPlayDownload from '@/public/images/google-play-download.svg'
+// import css from './styles.module.css'
+// import { IOS_LINK, GPLAY_LINK } from '@/config/constants'
 
 const TextBlockBanner = () => (
   <></>

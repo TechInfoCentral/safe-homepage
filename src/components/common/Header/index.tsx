@@ -1,16 +1,17 @@
 import { useState } from 'react'
-import { Accordion, AccordionDetails, AccordionSummary, Button, ButtonBase } from '@mui/material'
+// import { Accordion, AccordionDetails, AccordionSummary, Button, ButtonBase } from '@mui/material'
+import { Accordion, AccordionDetails, AccordionSummary, ButtonBase } from '@mui/material'
 import NextLink from 'next/link'
 import clsx from 'clsx'
 
 import { AppRoutes } from '@/config/routes'
 import { WALLET_LINK } from '@/config/constants'
-import SafeLink from '@/components/common/SafeLink'
+// import SafeLink from '@/components/common/SafeLink'
 import Menu from '@/components/common/Header/Menu'
 import { navCategories, type NavCategories } from '@/components/common/Header/navCategories'
 // import Logo from '@/public/images/logo.svg'
 import AngleDownIcon from '@/public/images/angle-down.svg'
-import ArrowIcon from '@/public/images/arrow-out-square-corner.svg'
+// import ArrowIcon from '@/public/images/arrow-out-square-corner.svg'
 import css from './styles.module.css'
 import NavigationButton from '@/components/common/Header/NavigationButton'
 import { useIsMediumScreen } from '@/hooks/useMaxWidth'
@@ -37,10 +38,9 @@ const Header = () => {
         {/* <div className={css.logo}>
           <Logo />
         </div> */}
-      <div>
-      <img src="/images/dimp-logo.png" alt="Logo" width="100"/>
-      </div>
-
+        <div>
+          <img src="/images/dimp-logo.png" alt="Logo" width="100" />
+        </div>
       </NextLink>
 
       <ButtonBase className={css.burger} onClick={toggleMobileNavigation} aria-label="Toggle navigation" disableRipple>
@@ -86,20 +86,18 @@ const Header = () => {
         </ul>
       </nav>
 
-      <div className={css.hideInMobile}>
-        {/* <WalletButton /> */}
-      </div>
+      <div className={css.hideInMobile}>{/* <WalletButton /> */}</div>
     </div>
   )
 }
 
-const WalletButton = () => (
-  <SafeLink href={WALLET_LINK}>
-    <Button className={css.button} variant="contained">
-      Launch Wallet
-      <ArrowIcon className={css.icon} />
-    </Button>
-  </SafeLink>
-)
+// const WalletButton = () => (
+//   <SafeLink href={WALLET_LINK}>
+//     <Button className={css.button} variant="contained">
+//       Launch Wallet
+//       <ArrowIcon className={css.icon} />
+//     </Button>
+//   </SafeLink>
+// )
 
 export default Header

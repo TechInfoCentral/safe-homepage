@@ -1,5 +1,5 @@
-import { Grid, Typography } from '@mui/material'
-import css from '@/components/Home/HeroVideo/styles.module.css'
+// import { Grid, Typography } from '@mui/material'
+// import css from '@/components/Home/HeroVideo/styles.module.css'
 import type { BaseBlock } from '@/components/Home/types'
 import { useEffect, useRef, useState } from 'react'
 

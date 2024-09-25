@@ -15,7 +15,7 @@ const TextBlockImage = ({
   title,
   text,
   buttons,
-  items,
+  // items,
   variant,
   mobileVariant,
   children,
@@ -53,7 +53,7 @@ const TextBlockImage = ({
               ))}
             </div>
           ) : undefined} */}
-          
+
           <ButtonsWrapper buttons={buttons} />
         </Grid>
 

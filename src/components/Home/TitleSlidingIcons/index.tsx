@@ -1,6 +1,7 @@
 import { type BaseBlock } from '@/components/Home/types'
-import { Box, Typography } from '@mui/material'
-import IconCarouselElement, { type Carousel } from './IconCarouselElement'
+// import { Box, Typography } from '@mui/material'
+// import IconCarouselElement, { type Carousel } from './IconCarouselElement'
+import { type Carousel } from './IconCarouselElement'
 
 const TitleSlidingIcons = ({ title, text, icons, reverse = false }: BaseBlock & Carousel) => {
   return (

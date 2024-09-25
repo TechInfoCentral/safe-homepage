@@ -6,7 +6,6 @@ const ManifestoElement = () => {
       <img src="/images/particle1.png" alt="Particles background" className={css.bgImage} />
       {/* <img src="/images/particle2.png" alt="Particles background" className={css.bgImage} /> */}
       {/* <img src="/images/particle3.png" alt="Particles background" className={css.bgImage} /> */}
-      
       {/* <img src="/images/Home/manifesto-bg.png" alt="Particles background" className={css.bgImage} /> */}
       {/* <video autoPlay muted playsInline loop className={css.video}>
         <source src="/videos/Home/ownership-hevc.mov" type="video/quicktime; codecs=hvc1" />

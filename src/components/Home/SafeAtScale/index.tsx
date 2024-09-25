@@ -2,10 +2,11 @@ import { type BaseBlock } from '@/components/Home/types'
 import { Container, Grid, Typography } from '@mui/material'
 import layoutCss from '@/components/common/styles.module.css'
 import css from './styles.module.css'
-import { Fragment, useRef, type CSSProperties } from 'react'
+// import { Fragment, useRef, type CSSProperties } from 'react'
+import { useRef } from 'react'
 import { useSafeStats } from '@/hooks/useSafeStats'
 import useScrollReveal from '@/hooks/useScrollReveal'
-import TickerElement from './TickerElement'
+// import TickerElement from './TickerElement'
 
 const SafeAtScale = ({ caption, title, items }: BaseBlock) => {
   const safeStats = useSafeStats()

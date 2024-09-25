@@ -1,4 +1,5 @@
-import { Badge, ButtonBase, Container, Divider, Grid, SvgIcon, Typography } from '@mui/material'
+// import { Badge, ButtonBase, Container, Divider, Grid, SvgIcon, Typography } from '@mui/material'
+import { Badge, ButtonBase, Container, Divider, Grid, Typography } from '@mui/material'
 import type { ComponentType, SyntheticEvent } from 'react'
 
 import { AppRoutes } from '@/config/routes'
@@ -11,24 +12,24 @@ import XIcon from '@/public/images/x-icon.svg'
 import css from './styles.module.css'
 import Link from 'next/link'
 import {
-  DOCS_LINK,
-  HELP_LINK,
-  PRESS_LINK,
-  LICENSES_LINK,
-  GRANTS_LINK,
-  SAFECON_LINK,
-  DISCORD_LINK,
-  FORUM_LINK,
-  GITHUB_LINK,
+  // DOCS_LINK,
+  // HELP_LINK,
+  // PRESS_LINK,
+  // LICENSES_LINK,
+  // GRANTS_LINK,
+  // SAFECON_LINK,
+  // DISCORD_LINK,
+  // FORUM_LINK,
+  // GITHUB_LINK,
   TWITTER_LINK,
-  YOUTUBE_LINK,
+  // YOUTUBE_LINK,
 } from '@/config/constants'
 import { useCookieBannerContext } from '@/contexts/CookieBannerContext'
 // import Logo from '@/public/images/logo.svg'
 import { useOpenPositions } from '@/hooks/useOpenPositions'
-import packageJson from 'package.json'
+// import packageJson from 'package.json'
 
-const COOKIE_PREFERENCES = '#cookies'
+// const COOKIE_PREFERENCES = '#cookies'
 
 const developersItems = [
   {
@@ -206,11 +207,10 @@ const Footer = () => {
           {/* <Link href={AppRoutes.index}>
             <Logo className={css.logo} />
           </Link> */}
-          
-          <Link href={AppRoutes.index}>
-            <img src="/images/dimp-logo.png" alt="Logo" width="100"/>
-          </Link>
 
+          <Link href={AppRoutes.index}>
+            <img src="/images/dimp-logo.png" alt="Logo" width="100" />
+          </Link>
         </Grid>
 
         <Grid item xs={6} md={2}>

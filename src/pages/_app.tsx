@@ -55,15 +55,15 @@ const App = ({
         <CssBaseline />
 
         {/* <CookieBannerContextProvider> */}
-          <InitHooks />
+        <InitHooks />
 
-          <SearchParamsContextProvider>
-            <PageLayout>
-              <Component {...pageProps} />
-            </PageLayout>
-          </SearchParamsContextProvider>
+        <SearchParamsContextProvider>
+          <PageLayout>
+            <Component {...pageProps} />
+          </PageLayout>
+        </SearchParamsContextProvider>
 
-          <CookieBanner />
+        <CookieBanner />
         {/* </CookieBannerContextProvider> */}
       </CssVarsProvider>
     </CacheProvider>
